@@ -6,7 +6,8 @@
 
 This is an open-source AI trivia game that uses [OpenAI Functions](https://platform.openai.com/docs/guides/gpt/function-calling) and the [Kaggle IPL dataset](https://www.kaggle.com/datasets/purnend26/ipl-2023-dataset) to generate trivia questions for users.
 
-https://github.com/droid-mohit/drd-trivia-backend/assets/16644933/dd0be1e2-a753-414b-bb1b-fe804ef80980
+https://github.com/sidPhoenix17/drd-trivia-backend/assets/16644933/b5b0175b-28cf-4b91-9b3f-fe1166bdf1ce
+
 
 ## Deploy your own
 
@@ -21,13 +22,13 @@ Process we followed: https://notes.drdroid.io/create-a-trivia-game-about-a-rando
 
 To set up the game locally, you'll need to set up the following environment variables:
 
-- `OPENAI_KEY` – your OpenAI_API key (you can get one [here](https://platform.openai.com/account/api-keys))
+- `OPENAI_KEY` – your OpenAI_API key (you can get one [here](https://platform.openai.com/account/api-keys))
 
-Note: The one you might see in code is non-functional and you need to put one in env variables.
+Note: The openai_key variable you might see in code is non-functional and you need to put one in env variables.
 
 ## Tech Stack
 
-ChatH is built on the following stack:
+The quiz is built on the following stack:
 - OpenAI [Function Calling](https://platform.openai.com/docs/guides/gpt/function-calling)
 - Kaggle Dataset — [IPL 2023](https://www.kaggle.com/datasets/purnend26/ipl-2023-dataset)
 - Code Stack: ReactJS, Python
